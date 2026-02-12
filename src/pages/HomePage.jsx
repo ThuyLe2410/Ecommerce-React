@@ -7,7 +7,7 @@ export function HomePage() {
       <title>Ecommerce Project</title>
       <div class="header">
         <div class="left-section">
-          <a href="index.html" class="header-link">
+          <a href="/" class="header-link">
             <img class="logo" src="images/logo-white.png" />
             <img class="mobile-logo" src="images/mobile-logo-white.png" />
           </a>
@@ -26,7 +26,7 @@ export function HomePage() {
             <span class="orders-text">Orders</span>
           </a>
 
-          <a class="cart-link header-link" href="checkout.html">
+          <a class="cart-link header-link" href="/checkout">
             <img class="cart-icon" src="images/icons/cart-icon.png" />
             <div class="cart-quantity">3</div>
             <div class="cart-text">Cart</div>
